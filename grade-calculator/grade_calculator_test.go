@@ -83,7 +83,6 @@ func TestGetGradeF(t *testing.T) {
 }
 
 func TestGradeTypeString(t *testing.T) {
-	// Test Assignment type
 	if Assignment.String() != "assignment" {
 		t.Errorf("Expected Assignment.String() to return 'assignment'; got '%s' instead", Assignment.String())
 	}
